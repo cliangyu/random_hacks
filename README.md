@@ -10,6 +10,13 @@ https://gist.github.com/0xjac/85097472043b697ab57ba1b1c7530274
 https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line
 
 
+## Programming
+
+Refactoring and Design Patterns
+https://refactoring.guru/
+
+
+
 ## Datasets
 `Check public datasets quickly`
 Roboflow Universe: Open Source Computer Vision Community
