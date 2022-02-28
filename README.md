@@ -13,3 +13,7 @@ https://refactoring.guru/
 `Check public datasets quickly`
 Roboflow Universe: Open Source Computer Vision Community
 https://universe.roboflow.com/
+
+## Tools
+Pre-commit forks
+`run pre-commit run --all-files`
