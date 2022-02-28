@@ -16,4 +16,4 @@ https://universe.roboflow.com/
 
 ## Tools
 Pre-commit forks
-`run pre-commit run --all-files`
+`pre-commit run --all-files`
