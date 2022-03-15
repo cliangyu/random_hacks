@@ -1,19 +1,21 @@
-# random_hacks
-Random hacks that I need to keep happy
+# 🤣 random_hacks
+Happy Random hacks.
 
+## [🧐 Research](Research.md)
 
-## Programming
+## [😸 Github](Github.md)
 
+## 👨‍💻 Programming
 Refactoring and Design Patterns
 https://refactoring.guru/
 
 
-
-## Datasets
+## 💾 Datasets
 `Check public datasets quickly`
 Roboflow Universe: Open Source Computer Vision Community
 https://universe.roboflow.com/
 
-## Tools
+## 🛠 Tools
 Pre-commit forks
 `pre-commit run --all-files`
+
