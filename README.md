@@ -1,5 +1,5 @@
 # 🤣 random_hacks
-Happy Random hacks.
+Happy random hacks.
 
 ## [🧐 Research](Research.md)
 
@@ -7,12 +7,6 @@ Happy Random hacks.
 
 ## [👨‍💻 Programming](Programming.md)
 
-## 💾 Datasets
-`Check public datasets quickly`
-Roboflow Universe: Open Source Computer Vision Community
-https://universe.roboflow.com/
+## [🛠 Tools](Tools.md)
 
-## 🛠 Tools
-Pre-commit forks
-`pre-commit run --all-files`
 
