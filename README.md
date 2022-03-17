@@ -5,10 +5,7 @@ Happy Random hacks.
 
 ## [😸 Github](Github.md)
 
-## 👨‍💻 Programming
-Refactoring and Design Patterns
-https://refactoring.guru/
-
+## [👨‍💻 Programming](Programming.md)
 
 ## 💾 Datasets
 `Check public datasets quickly`
