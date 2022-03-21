@@ -5,8 +5,9 @@ https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf
 
 ### 📝LaTex
 VS Code Latex setting (with Latex-Workshop plugin):
-Add the following code to global `settings.json`.
-Replace `latex-workshop.latexindent.path` to your install path.
+1. Make sure you install TeX Live and VS Code Latex-Workshop plugin to your Mac.
+2. Add the following code to global `settings.json` of VS Code.
+3. Replace `latex-workshop.latexindent.path` with your TeX Live install path.
 ```
     "latex-workshop.latex.tools": [
         {
