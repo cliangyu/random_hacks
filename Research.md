@@ -5,9 +5,9 @@ https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf
 
 ### 📝LaTex
 VS Code Latex setting (with Latex-Workshop plugin):
-1. Make sure you install TeX Live and VS Code Latex-Workshop plugin to your Mac.
+1. Make sure you have installed TeX Live and VS Code Latex-Workshop plugin on your Mac.
 2. Add the following code to global `settings.json` of VS Code.
-3. Replace `latex-workshop.latexindent.path` with your TeX Live install path.
+3. Replace `latex-workshop.latexindent.path` with your TeX Live install path, if the path is different.
 ```
     "latex-workshop.latex.tools": [
         {
