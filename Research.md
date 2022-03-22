@@ -1,4 +1,11 @@
 ## 🧐 Research
+
+### 🤖 Some general advices (in order) for my friends who are interested in Computer Vision
+1. Read/watch something fun to find your motivations. - I started my journey in Computer Vision in medical image analysis. That's where I found this topic interesting and impactful to the real world. Some people like robotics, autonomous driving, AI for science, or TikToking. Have as much fun as you can and you will see some problems that you want to work on.
+2. Study a bit about theory first, probably a fundamental course. - [Justin Johnson's course on Computer Vision](https://www.youtube.com/watch?v=dJYGatp4SvA&list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r&ab_channel=MichiganOnline) was my choice to get a big picture of computer vision and deep learning ;)
+3. Be prepared with coding. - Computer vision professionals, including both scientists and engineers, code to prove their ideas and build real-world applications. Read and practice programming (usually Python) and you will find yourself familiar with code projects.
+4. Learn mathematics when necessary. - I don't suggest beginners learning about a lot of math, because excessive dose of math is acute trauma for many people like me. If you want to dive into research, or understand the theory part in papers, it can be less painful to start with some tutorials built on undergraduate level of math. [MML Book](https://mml-book.github.io/) is my pick as the first math reference book.
+
 ### 📑 Literature
 How to Read a Paper
 https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf
