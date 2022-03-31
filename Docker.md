@@ -9,3 +9,6 @@ Note: must specify `--gpus all`
 
 3. Run Docker with admin permission
 `docker run --gpus all -it --cap-add=SYS_ADMIN deep-colorization:latest /bin/bash`
+
+4. Limit GPU power in Docker
+`nvidia-smi -i 0 -pl 180`
