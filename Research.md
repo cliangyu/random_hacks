@@ -88,6 +88,11 @@ VS Code Latex setting (with Latex-Workshop plugin):
 ### 🗣️ Communication
 How to Speak - YouTube
 https://www.youtube.com/watch?v=Unzc731iCUY&ab_channel=MITOpenCourseWare
+Some project page templates
+https://github.com/nerfies/nerfies.github.io
+https://yenchenlin.me/nerf-supervision/
+https://mbaradad.github.io/learning_with_noise/
+
 
 ### 💾 Datasets
 `Check public datasets quickly`
