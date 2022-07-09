@@ -85,6 +85,13 @@ VS Code Latex setting (with Latex-Workshop plugin):
 
 ### 📈 Experiment
 
+### 📑 Paper Writing
+
+跟读者建立联系【研究的艺术·一】by Mu Li
+https://www.bilibili.com/video/BV1hY411T7vy?spm_id_from=333.999.0.0
+
+
+
 ### 🗣️ Communication
 How to Speak - YouTube
 
