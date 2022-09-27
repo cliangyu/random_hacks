@@ -107,6 +107,14 @@ https://mbaradad.github.io/learning_with_noise/
 
 https://github.com/energy-based-model
 
+https://yang-song.net/blog/2021/score/
+
+Visual Design Guidelines
+
+Design - Apple Developer
+https://developer.apple.com/design/
+
+
 ### 💾 Datasets
 `Check public datasets quickly`
 Roboflow Universe: Open Source Computer Vision Community
