@@ -16,3 +16,7 @@ Add sudoers
 %admin ALL=(ALL) ALL
 user_name ALL=(ALL:ALL) ALL
 ```
+
+The Missing Semester of Your CS Education
+https://missing.csail.mit.edu/
+
