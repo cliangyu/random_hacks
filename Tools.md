@@ -25,3 +25,19 @@ Type ipconfig /flushdns and press Enter.
 
 Type ipconfig /renew and press Enter. (This will stall for a moment.)
 ```
+
+
+
+<br>
+
+##### Download files from Google drive
+
+The download method is from [gdown](https://github.com/wkentaro/gdown). To install the project, you can type the following command.
+
+```
+pip install gdown
+```
+Then you can use gdown to download files from Google drive as follow(just an example).
+```
+gdown https://drive.google.com/u/0/uc?id=1gxXalk9O0p9eu1YkIJcmZta1nvvyAJpA&export=download
+```
