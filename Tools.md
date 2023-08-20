@@ -45,3 +45,46 @@ Plus, if you use shell  ```zsh```, you need to type as follow.
 ```
 gdown "https://drive.google.com/u/0/uc?id=1gxXalk9O0p9eu1YkIJcmZta1nvvyAJpA&export=download"
 ```
+
+<br>
+
+##### Set up Docker on Linux OS
+
+1. Download the latest DEB package. (You can check the detail in [Website](https://docs.docker.com/desktop/install/ubuntu/))
+
+2. For non-Gnome Desktop environments, ```gnome-terminal``` must be installed:
+    ```
+    sudo apt install gnome-terminal
+    ```
+
+3. Uninstall the tech preview or beta version of Docker Desktop for Linux. Run:
+    ```
+    sudo apt remove docker-desktop
+    ```
+
+4. For a complete cleanup, remove configuration and data files at ```$HOME/.docker/desktop```, the symlink at ```/usr/local/bin/com.docker.cli```, and purge the remaining systemd service files.
+    ```
+    rm -r $HOME/.docker/desktop
+    sudo rm /usr/local/bin/com.docker.cli
+    sudo apt purge docker-desktop
+    ```
+
+5. Set up Docker’s package repository. (**this step is indispensable.**)
+    ```
+    sudo apt install -y ca-certificates curl gnupg lsb-release
+    sudo mkdir -p /etc/apt/keyrings
+    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+    echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+    sudo apt update -y
+    ```
+
+6. Install the package
+    ```
+    sudo apt-get update
+    sudo apt-get install ./docker-desktop-<version>-<arch>.deb
+    ```
+
+7. Check Docker's version
+    ```
+    docker --version
+    ```
