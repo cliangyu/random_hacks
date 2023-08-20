@@ -41,6 +41,10 @@ Then you can use gdown to download files from Google drive as follow(just an exa
 ```
 gdown https://drive.google.com/u/0/uc?id=1gxXalk9O0p9eu1YkIJcmZta1nvvyAJpA&export=download
 ```
+Plus, if you use shell  ```zsh```, you need to type as follow.
+```
+gdown "https://drive.google.com/u/0/uc?id=1gxXalk9O0p9eu1YkIJcmZta1nvvyAJpA&export=download"
+```
 
 <br>
 
