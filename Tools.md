@@ -88,3 +88,9 @@ gdown "https://drive.google.com/u/0/uc?id=1gxXalk9O0p9eu1YkIJcmZta1nvvyAJpA&expo
     ```
     docker --version
     ```
+
+#### CUDA Init Error
+
+nvidia-smi 那边显示的是 display driver，nvcc -V 显示的才是跟 pytorch 相关的
+
+Install [here](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=20.04&target_type=deb_network)
