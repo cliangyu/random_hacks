@@ -94,3 +94,36 @@ gdown "https://drive.google.com/u/0/uc?id=1gxXalk9O0p9eu1YkIJcmZta1nvvyAJpA&expo
 nvidia-smi 那边显示的是 display driver，nvcc -V 显示的才是跟 pytorch 相关的
 
 Install [here](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=20.04&target_type=deb_network)
+
+<br>
+
+##### How to delete docker's image
+
+1. check the docker's images and find the target image ID (front 3 words is okay).
+    ```
+    docker images
+    ```
+2. try to delete the image (e.g. ```eca```)
+    ```
+    docker rmi eca
+    ```
+3. usually, the image couldn't be deleted directly. you need to delete the container first.
+
+   check all containers.
+   ```
+   docker ps -a
+   ```
+   find the target container ID, front 3 words is okay. (e.g. ```39a```)
+
+   stop the container (if it's running).
+   ```
+   docker stop 39a
+   ```
+   delete the container.
+   ```
+   docker rm 39a
+   ```
+4. then, delete the image.
+   ```
+   docker rmi eca
+   ```
