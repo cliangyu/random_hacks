@@ -89,6 +89,37 @@ gdown "https://drive.google.com/u/0/uc?id=1gxXalk9O0p9eu1YkIJcmZta1nvvyAJpA&expo
     docker --version
     ```
 
+<br>
+
+
+##### How to change docker's root directory([details](https://zhuanlan.zhihu.com/p/95533274))
+1. stop the docker.
+    ```
+    systemctl stop docker
+    ```
+2. check docker's information.
+    ```
+    docker info
+    ```
+3. change the file ```/etc/docker/daemon.json```. (you need to use ```sudo```)
+    
+    **Attention: you have to make a new directory as the data root!!!**
+    ```
+    {
+        "data-root": "/data/docker"
+    }
+    ```
+4. restart the docker.
+    ```
+    systemctl restart docker
+    ```
+5. check the latest information
+    ```
+    docker info
+    ```
+    
+<br>
+
 #### CUDA Init Error
 
 nvidia-smi 那边显示的是 display driver，nvcc -V 显示的才是跟 pytorch 相关的
