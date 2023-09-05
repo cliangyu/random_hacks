@@ -158,3 +158,7 @@ Install [here](https://developer.nvidia.com/cuda-downloads?target_os=Linux&targe
    ```
    docker rmi eca
    ```
+
+##### When I suck with linux settings but can't reboot
+logout all the processes
+pkill -SIGKILL -u chen24
