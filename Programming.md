@@ -20,3 +20,11 @@ user_name ALL=(ALL:ALL) ALL
 The Missing Semester of Your CS Education
 https://missing.csail.mit.edu/
 
+Install mamba
+```
+wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
+chmod +x Miniforge3-Linux-x86_64.sh
+./Miniforge3-Linux-x86_64.sh -p mamba_dir -b
+source mamba_dir/bin/activate
+mamba init
+```
